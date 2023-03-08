@@ -1,7 +1,7 @@
 import random
 import string
 
-def generate_password(length=8, include_digits=True, include_punctuation=True):
+def generate_password(length, include_digits, include_punctuation):
     #Generates a random password of specified length.
     characters = string.ascii_letters
     if include_digits:
